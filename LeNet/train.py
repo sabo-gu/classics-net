@@ -4,7 +4,7 @@ from torch.utils.data import DataLoader
 from torchvision import datasets
 from torchvision import transforms
 import matplotlib.pyplot as plt
-from LeNet import LeNet
+from LeNet3 import LeNet
 
 train_data=datasets.MNIST(root='data',train=True,download=True,transform=transforms.ToTensor())
 test_data=datasets.MNIST(root='data',train=False,download=True,transform=transforms.ToTensor())
